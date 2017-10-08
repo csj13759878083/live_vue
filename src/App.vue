@@ -1,7 +1,9 @@
 <template>
   <div id="app">
+  <div id="app1">
   <Iheader></Iheader>
   <Zuo></Zuo>
+  </div>
   <router-view></router-view>
   </div>
 </template>

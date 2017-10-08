@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import VueResourse from 'vue-Resource'
 import Hello from '@/components/Hello'
 import Header from '@/components/Header'
 import Main from '@/components/Main'
@@ -19,9 +20,10 @@ import Calendar from '@/components/admin/Calendar'
 import Gallery from '@/components/admin/Gallery'
 import Profile from '@/components/admin/Profile'
 import Inbox from '@/components/admin/Inbox'
-
+import Login from '@/components/admin/Login'
+import update from '@/components/admin/update'
 Vue.use(Router)
-
+Vue.use(VueResourse)
 export default new Router({
   routes: [
     {
@@ -165,6 +167,23 @@ export default new Router({
       //跟最顶的一样
       component: Inbox
     },
+
+     {
+      //路由配置地址
+      path: '/Login',
+      name: 'Login',
+      //跟最顶的一样
+      component: Login
+    },
+    {
+      //路由配置地址
+      path: '/update',
+      name: 'update',
+      //跟最顶的一样
+      component: update
+    },
+
+
 
   ]
 })

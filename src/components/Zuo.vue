@@ -139,7 +139,7 @@
 						<li>
 							<a href="#" class="dropdown-toggle">
 								<i class="icon-list"></i>
-								<span class="menu-text"> 表格 </span>
+								<span class="menu-text"> 礼物管理</span>
 
 								<b class="arrow icon-angle-down"></b>
 							</a>
@@ -148,14 +148,14 @@
 								<li>
 									<a href="http://localhost:8080/index.html#/Tables">
 										<i class="icon-double-angle-right"></i>
-										简单 &amp; 动态
+										礼物
 									</a>
 								</li>
 
 								<li>
 									<a href="http://localhost:8080/index.html#/Jqgrid">
 										<i class="icon-double-angle-right"></i>
-										jqGrid plugin
+										添加管理
 									</a>
 								</li>
 							</ul>
@@ -272,7 +272,7 @@
 								</li>
 
 								<li>
-									<a href="login.html">
+									<a href="http://localhost:8080/#/login">
 										<i class="icon-double-angle-right"></i>
 										登录 &amp; 注册
 									</a>
